@@ -1,7 +1,7 @@
 # formFake
 Evolution CMS (MODx Evolution) snippet for preventing non-ajax page loading
 ## USAGE
-Call [!formFake!] or {!! $modx->runSnippet('formFake',[]) !!} at the start of page. For example, for prevent non-ajax forms submission
+Call [!formFake!] or {!! $modx->runSnippet('formFake',[]) !!} at the start of page. For example, to disable non-ajax forms submission
 ```
 [!formFake!]
 [!FormLister?
